@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bg{
+    background: rgba(0, 0, 0, 0.89)url(/images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.fsec{
+    height: 100vh;
+}
+.ssec{
+    height: 100vh;
+}
+.full-height{
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(17, 24, 39);
+    color: #fff;
+    font-family: sans-serif;
+}
+.card-border{
+    border: 2px solid #fff;
+   margin-top: 5rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.social-icon{
+    font-size: 2rem;
+    text-decoration: none;
+    margin-left: auto;
+}
+.card-head{
+    border-bottom: 2px solid #fff;
+    width: 100%;
+    text-align: center;
+   
+   
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 7rem;
+}
+.line{
+    width: 100%;
+    background: #fff;
+    height: 2px;
+
+}
+.navbar-toggler:hover{
+    box-shadow: none;
+}
+.nav-item{
+    text-align: center;
+}
+
+
+.change-content::after{
+content: '';
+animation: changetext 4s infinite linear;
+color: blue;
+}
+@keyframes changetext {
+    0%{
+        content: "F";
+    }
+    2%{
+        content: "Fr";
+    }
+    4%{
+        content: "Fro";
+    }
+    6%{
+        content: "Fron";
+    }
+    8%{
+        content: "Front";
+    }
+    10%{
+        content: "FrontE";
+    }
+    12%{
+        content: "FrontEn";
+    }
+    14%{
+        content: "FrontEnd";
+    }
+    16%{
+        content: "FrontEnd ";
+    }
+    18%{
+        content: "FrontEnd D";
+    }
+    20%{
+        content: "FrontEnd De";
+    }
+    22%{
+        content: "FrontEnd Dev";
+    }
+    24%{
+        content: "FrontEnd Deve";
+    }
+    26%{
+        content: "FrontEnd Devel";
+    }
+    28%{
+        content: "FrontEnd Develo";
+    }
+    
+    30%{
+        content: "FrontEnd Develop";
+    }
+    
+    32%{
+        content: "FrontEnd Develope";
+    }
+    
+    34%{
+        content: "FrontEnd Developer";
+    }
+    
+ 
+    
+    
+    40%{
+        content: "FrontEnd Develo";
+    }
+    
+    42%{
+        content: "FrontEnd Dev";
+    }
+    
+    44%{
+        content: "FrontEnd D";
+    }
+    
+    46%{
+        content: "FrontE";
+    }
+    
+    48%{
+        content: "Fro";
+    }
+    
+    50%{
+        content: "Fr";
+    }
+    
+    52%{
+        content: "";
+    }
+    55%{
+        content: "G";
+        color: red;
+    }
+    59%{
+        content: "Ga";
+        color: green;
+    }
+    63%{
+        content: "Gam";
+        color: blue;
+    }
+    67%{
+        content: "Game";
+        color: red;
+
+    }
+    71%{
+        content: "Gamer";
+        color: green;
+        
+    }
+    75%{
+        content: "Game";
+    }
+    79%{
+        content: "Gam";
+    }
+    83%{
+        content: "Ga";
+    }
+    88%{
+        content: "G";
+    }
+    92%{
+        content: "";
+    }
+    100%{
+        content: "";
+    }
+    
